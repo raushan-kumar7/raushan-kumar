@@ -1,14 +1,14 @@
 # My Portfolio
 Welcome to my portfolio! This project showcases my skills, projects, and training as a web developer.
 
-### Weblink: [Live Website](https://raushan.netlify.app)
+### Weblink: [Live Website](https://raushan-kumar.onrender.com)
 ## Some Images:
-<img width="450px;" src="https://res.cloudinary.com/raushankumar/image/upload/v1722402509/raushan-p1_db6yff.png"/>
-<img width="450px;" src="https://res.cloudinary.com/raushankumar/image/upload/v1722402508/raushan-p2_l4ndbs.png"/>
-<img width="450px;" src="https://res.cloudinary.com/raushankumar/image/upload/v1722402509/raushan-p3_xxcb8e.png"/>
-<img width="450px;" src="https://res.cloudinary.com/raushankumar/image/upload/v1722402508/raushan-p4_h1rqgo.png"/>
-<img width="450px;" src="https://res.cloudinary.com/raushankumar/image/upload/v1722402509/raushan-p5_owwnxm.png"/>
-<img width="450px;" src="https://res.cloudinary.com/raushankumar/image/upload/v1722402509/raushan-p6_jya1b6.png"/>
+<img width="450px;" src="https://res.cloudinary.com/raushankumar/image/upload/v1722405414/raushan_p1_rmcj39.png"/>
+<img width="450px;" src="https://res.cloudinary.com/raushankumar/image/upload/v1722405413/raushan_p2_rxuzhp.png"/>
+<img width="450px;" src="https://res.cloudinary.com/raushankumar/image/upload/v1722405414/raushan_p3_hammpr.png"/>
+<img width="450px;" src="https://res.cloudinary.com/raushankumar/image/upload/v1722405414/raushan_p4_zvr7av.png"/>
+<img width="450px;" src="https://res.cloudinary.com/raushankumar/image/upload/v1722405414/raushan_p5_erdyic.png"/>
+<img width="450px;" src="https://res.cloudinary.com/raushankumar/image/upload/v1722405414/raushan_p6_e2tpip.png"/>
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -40,8 +40,8 @@ My Portfolio is a React.js application that serves as an online portfolio to sho
 ## Installation
 To run this portfolio locally, follow these steps:
 
-1. Clone the repository: `git clone `
-2. Navigate to the project directory: `cd `
+1. Clone the repository: `git clone https://github.com/raushan-kumar7/raushan-kumar.git`
+2. Navigate to the project directory: `cd raushan-kumar`
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm run dev`
 5. Open your browser and visit: `http://localhost:5173/`
