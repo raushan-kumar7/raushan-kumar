@@ -242,7 +242,7 @@ export const education = [
     id: 1,
     img: "https://res.cloudinary.com/raushankumar/image/upload/v1722368196/lndlogo1_bmf2pr.jpg",
     school: "Laxmi Narayan Dubey College, Motihari",
-    date: "Apr 2019 - Apr 2021",
+    date: "Apr 2019 - Feb 2021",
     grade: "84.4%",
     desc: "I completed my class 12 high school education at Laxmi Narayan Dubey College, Motihari, where I studied Science with maths.",
     degree: "ISC(XII), Science with Maths",
