@@ -194,20 +194,20 @@ const Projects = ({ openModal, setOpenModal }) => {
             </ToggleButton>
           )}
           <Divider />
-          {toggle === "application" ? (
+          {toggle === "gui application" ? (
             <ToggleButton
               active
-              value="application"
-              onClick={() => setToggle("application")}
+              value="gui application"
+              onClick={() => setToggle("gui application")}
             >
-              APPLICATION'S
+              GUI APPLICATION'S
             </ToggleButton>
           ) : (
             <ToggleButton
-              value="application"
-              onClick={() => setToggle("application")}
+              value="gui application"
+              onClick={() => setToggle("gui application")}
             >
-              APPLICATION'S
+              GUI APPLICATION'S
             </ToggleButton>
           )}
         </ToggleGroup>
