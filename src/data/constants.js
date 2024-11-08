@@ -319,9 +319,9 @@ export const projects = [
       },
       {
         name: "Gauhar Adeeb",
-        img: "",
-        linkedin: "",
-        github: "",
+        img: "https://res.cloudinary.com/raushankumar/image/upload/v1731052048/gauhar_ga94gl.jpg",
+        linkedin: "https://www.linkedin.com/in/gauhar-adeeb/",
+        github: "https://github.com/Gauharadeeb",
       },
     ],
   },
