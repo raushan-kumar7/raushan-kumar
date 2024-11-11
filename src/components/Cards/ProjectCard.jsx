@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 
 const Button = styled.button`
@@ -17,7 +17,7 @@ const Button = styled.button`
 
 const Card = styled.div`
   width: 330px;
-  height: 490px;
+  height: 500px;
   background-color: ${({ theme }) => theme.card};
   cursor: pointer;
   border-radius: 10px;
@@ -122,7 +122,40 @@ const Avatar = styled.img`
   border: 3px solid ${({ theme }) => theme.card};
 `;
 
+const ButtonWrapper = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+const LinkButton = styled.button`
+  width: 100%;
+  padding: 10px;
+  background-color: ${({ theme }) => theme.white};
+  color: ${({ theme }) => theme.text_black};
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.8s ease-in-out;
+  margin: 0 10px;
+  margin-bottom: 5px;
+
+  &:hover {
+    background-color: ${({ theme }) => theme.primary};
+    color: ${({ theme }) => theme.white};
+    transition: all 0.8s ease-in-out;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.4);
+  }
+`;
+
 const ProjectCard = ({ project, setOpenModal }) => {
+  const handleLinkClick = (url) => {
+    window.open(url, '_self');
+  }
+
   return (
     <Card onClick={() => setOpenModal({ state: true, project: project })}>
       <Image src={project.image} />
@@ -141,7 +174,10 @@ const ProjectCard = ({ project, setOpenModal }) => {
           <Avatar key={index} src={member.img} />
         ))}
       </Members>
-      {/* <Button>View Project</Button> */}
+      <ButtonWrapper>
+        <LinkButton onClick={() => handleLinkClick(project.github)}>Repo Url</LinkButton>
+        <LinkButton onClick={() => handleLinkClick(project.webapp)}>Deploy Url</LinkButton>
+      </ButtonWrapper>
     </Card>
   );
 };
