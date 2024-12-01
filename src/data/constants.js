@@ -8,7 +8,7 @@ export const Bio = {
     "https://drive.google.com/drive/folders/1ydjSMSbZ8PtKRIO2O_pF-DlUAmAmIXYl?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/thisraushankumar/",
   twitter: "https://twitter.com/kumar_raushan19",
-  insta: "https://www.instagram.com/kumar.raushan19/",
+  insta: "https://www.instagram.com/kumar.raushan19",
   facebook: "https://www.facebook.com/kumar.raushan19",
 };
 
@@ -167,6 +167,19 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    id: 9,
+    title: "InPic AI - Generate Stunning Images",
+    date: "Oct 2024 - Nov 2024",
+    description:
+      "InPic AI is a web platform that enables users to create stunning images from text prompts using the ClipDrop API. It features user authentication, account creation, and a credit-based system, ensuring seamless access to image generation while managing usage efficiently. Experience creativity unleashed with InPic AI's innovative tools.",
+    image:
+      "https://res.cloudinary.com/raushankumar/image/upload/v1733050575/home_jotcgj.png",
+    tags: ["React JS", "Vite", "Node.js", "Express", "MongoDB", "ClipDrop API", "JWT"],
+    category: "web app",
+    github: "https://github.com/raushan-kumar7/inpicai",
+    webapp: "https://inpicai.onrender.com",
+  },
   {
     id: 8,
     title: "E-Plant Shooping Website",
